@@ -1,4 +1,6 @@
 const form = document.querySelector('form');
+console.log(form);
+
 const userInput = document.querySelector('#num');
 const submit = document.querySelector('#sbt');
 const guessDisplay = document.querySelector('.guesses');
@@ -7,7 +9,7 @@ const result = document.querySelector('.result');
 const lowOrHigh = document.querySelector('.lowOrHi');
 let guessList = [];
 let countOfGuesses = 0;
-let randomNumber = parseInt((Math.random() * 100) + 1);
+let randomNumber = parseInt((Math.random() * 100) + 1);//1 to 100
 const button = document.createElement('button');
 console.log(randomNumber);
 let gameState = true;

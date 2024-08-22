@@ -1,0 +1,39 @@
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid darkblue;
+    background-color: bisque;
+  
+}
+.btn
+{
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px;
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+body
+{
+    background-color: black;
+}
+.btn:hover {
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 15px;
+}
