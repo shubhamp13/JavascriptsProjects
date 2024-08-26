@@ -1,0 +1,30 @@
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    height: 300px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 35%;
+}
+body
+{
+    background-color: black;
+}
+h1
+{
+    text-align: center;
+    color: beige;
+    font-size: 45px;
+}
+.btn
+{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
